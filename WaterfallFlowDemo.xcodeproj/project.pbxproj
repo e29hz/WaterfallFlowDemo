@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E41400051C7D829800B44FD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E41400041C7D829800B44FD2 /* main.m */; };
-		E41400081C7D829800B44FD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E41400071C7D829800B44FD2 /* AppDelegate.m */; };
-		E414000B1C7D829800B44FD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E414000A1C7D829800B44FD2 /* ViewController.m */; };
-		E414000E1C7D829800B44FD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E414000C1C7D829800B44FD2 /* Main.storyboard */; };
+		70B43DF40ABEE028258A6058 /* libPods-WaterfallFlowDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 213FCA77D2160A410E877628 /* libPods-WaterfallFlowDemo.a */; };
 		E41400101C7D829800B44FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E414000F1C7D829800B44FD2 /* Assets.xcassets */; };
 		E41400131C7D829800B44FD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41400111C7D829800B44FD2 /* LaunchScreen.storyboard */; };
 		E414001E1C7D829800B44FD2 /* WaterfallFlowDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E414001D1C7D829800B44FD2 /* WaterfallFlowDemoTests.m */; };
 		E41400291C7D829800B44FD2 /* WaterfallFlowDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E41400281C7D829800B44FD2 /* WaterfallFlowDemoUITests.m */; };
+		E46FC6E71C7EDD0400DEFB45 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E46FC6DA1C7EDD0400DEFB45 /* UIView+Extension.m */; };
+		E46FC6E81C7EDD0400DEFB45 /* HZShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46FC6DD1C7EDD0400DEFB45 /* HZShopViewController.m */; };
+		E46FC6E91C7EDD0400DEFB45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E46FC6E11C7EDD0400DEFB45 /* AppDelegate.m */; };
+		E46FC6EA1C7EDD0400DEFB45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E46FC6E21C7EDD0400DEFB45 /* main.m */; };
+		E46FC6EB1C7EDD0400DEFB45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46FC6E31C7EDD0400DEFB45 /* Main.storyboard */; };
+		E46FC6EC1C7EDD0400DEFB45 /* HZShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E46FC6E61C7EDD0400DEFB45 /* HZShopCell.m */; };
+		E46FC6F21C7EDD1700DEFB45 /* HZWaterfallFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = E46FC6EF1C7EDD1700DEFB45 /* HZWaterfallFlowView.m */; };
+		E46FC6F31C7EDD1700DEFB45 /* HZWaterfallFlowViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E46FC6F11C7EDD1700DEFB45 /* HZWaterfallFlowViewCell.m */; };
+		E46FC6F61C7EDD4100DEFB45 /* HZShop.m in Sources */ = {isa = PBXBuildFile; fileRef = E46FC6F51C7EDD4100DEFB45 /* HZShop.m */; };
+		E46FC6FA1C7EDE3500DEFB45 /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = E46FC6F71C7EDE3500DEFB45 /* 1.plist */; };
+		E46FC6FB1C7EDE3500DEFB45 /* 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = E46FC6F81C7EDE3500DEFB45 /* 2.plist */; };
+		E46FC6FC1C7EDE3500DEFB45 /* 3.plist in Resources */ = {isa = PBXBuildFile; fileRef = E46FC6F91C7EDE3500DEFB45 /* 3.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04A2724EE7F059B6D47B20B7 /* Pods-WaterfallFlowDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterfallFlowDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterfallFlowDemo/Pods-WaterfallFlowDemo.release.xcconfig"; sourceTree = "<group>"; };
+		213FCA77D2160A410E877628 /* libPods-WaterfallFlowDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WaterfallFlowDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41400001C7D829800B44FD2 /* WaterfallFlowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterfallFlowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E41400041C7D829800B44FD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E41400061C7D829800B44FD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E41400071C7D829800B44FD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E41400091C7D829800B44FD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E414000A1C7D829800B44FD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E414000D1C7D829800B44FD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E414000F1C7D829800B44FD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E41400121C7D829800B44FD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E41400141C7D829800B44FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +56,27 @@
 		E41400241C7D829800B44FD2 /* WaterfallFlowDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterfallFlowDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41400281C7D829800B44FD2 /* WaterfallFlowDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterfallFlowDemoUITests.m; sourceTree = "<group>"; };
 		E414002A1C7D829800B44FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E414003E1C7D8DB700B44FD2 /* HZPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZPrefixHeader.pch; sourceTree = "<group>"; };
+		E46FC6D91C7EDD0400DEFB45 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		E46FC6DA1C7EDD0400DEFB45 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		E46FC6DC1C7EDD0400DEFB45 /* HZShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZShopViewController.h; sourceTree = "<group>"; };
+		E46FC6DD1C7EDD0400DEFB45 /* HZShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZShopViewController.m; sourceTree = "<group>"; };
+		E46FC6E01C7EDD0400DEFB45 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E46FC6E11C7EDD0400DEFB45 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E46FC6E21C7EDD0400DEFB45 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E46FC6E31C7EDD0400DEFB45 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E46FC6E51C7EDD0400DEFB45 /* HZShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZShopCell.h; sourceTree = "<group>"; };
+		E46FC6E61C7EDD0400DEFB45 /* HZShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZShopCell.m; sourceTree = "<group>"; };
+		E46FC6EE1C7EDD1700DEFB45 /* HZWaterfallFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZWaterfallFlowView.h; sourceTree = "<group>"; };
+		E46FC6EF1C7EDD1700DEFB45 /* HZWaterfallFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZWaterfallFlowView.m; sourceTree = "<group>"; };
+		E46FC6F01C7EDD1700DEFB45 /* HZWaterfallFlowViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZWaterfallFlowViewCell.h; sourceTree = "<group>"; };
+		E46FC6F11C7EDD1700DEFB45 /* HZWaterfallFlowViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZWaterfallFlowViewCell.m; sourceTree = "<group>"; };
+		E46FC6F41C7EDD4100DEFB45 /* HZShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZShop.h; sourceTree = "<group>"; };
+		E46FC6F51C7EDD4100DEFB45 /* HZShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZShop.m; sourceTree = "<group>"; };
+		E46FC6F71C7EDE3500DEFB45 /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		E46FC6F81C7EDE3500DEFB45 /* 2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 2.plist; sourceTree = "<group>"; };
+		E46FC6F91C7EDE3500DEFB45 /* 3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 3.plist; sourceTree = "<group>"; };
+		FD7389C50A51255BFD3E60A1 /* Pods-WaterfallFlowDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterfallFlowDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterfallFlowDemo/Pods-WaterfallFlowDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +98,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70B43DF40ABEE028258A6058 /* libPods-WaterfallFlowDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B321D6F25FD00988FDDB780 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				213FCA77D2160A410E877628 /* libPods-WaterfallFlowDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E89634785AFA02FD390DAE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD7389C50A51255BFD3E60A1 /* Pods-WaterfallFlowDemo.debug.xcconfig */,
+				04A2724EE7F059B6D47B20B7 /* Pods-WaterfallFlowDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E41400011C7D829800B44FD2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,14 +135,7 @@
 		E41400021C7D829800B44FD2 /* WaterfallFlowDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E41400061C7D829800B44FD2 /* AppDelegate.h */,
-				E41400071C7D829800B44FD2 /* AppDelegate.m */,
-				E41400091C7D829800B44FD2 /* ViewController.h */,
-				E414000A1C7D829800B44FD2 /* ViewController.m */,
-				E414000C1C7D829800B44FD2 /* Main.storyboard */,
-				E414000F1C7D829800B44FD2 /* Assets.xcassets */,
-				E41400111C7D829800B44FD2 /* LaunchScreen.storyboard */,
-				E41400141C7D829800B44FD2 /* Info.plist */,
+				E46FC6D71C7EDD0400DEFB45 /* Classes */,
 				E41400031C7D829800B44FD2 /* Supporting Files */,
 			);
 			path = WaterfallFlowDemo;
@@ -107,7 +144,13 @@
 		E41400031C7D829800B44FD2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E41400041C7D829800B44FD2 /* main.m */,
+				E46FC6F71C7EDE3500DEFB45 /* 1.plist */,
+				E46FC6F81C7EDE3500DEFB45 /* 2.plist */,
+				E46FC6F91C7EDE3500DEFB45 /* 3.plist */,
+				E414000F1C7D829800B44FD2 /* Assets.xcassets */,
+				E41400111C7D829800B44FD2 /* LaunchScreen.storyboard */,
+				E41400141C7D829800B44FD2 /* Info.plist */,
+				E414003E1C7D8DB700B44FD2 /* HZPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -137,7 +180,80 @@
 				E414001C1C7D829800B44FD2 /* WaterfallFlowDemoTests */,
 				E41400271C7D829800B44FD2 /* WaterfallFlowDemoUITests */,
 				E41400011C7D829800B44FD2 /* Products */,
+				8E89634785AFA02FD390DAE0 /* Pods */,
+				0B321D6F25FD00988FDDB780 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		E46FC6D71C7EDD0400DEFB45 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E46FC6ED1C7EDD1700DEFB45 /* HZWaterfallFlow */,
+				E46FC6D81C7EDD0400DEFB45 /* Category */,
+				E46FC6DB1C7EDD0400DEFB45 /* Controller */,
+				E46FC6DE1C7EDD0400DEFB45 /* Model */,
+				E46FC6E41C7EDD0400DEFB45 /* View */,
+				E46FC6DF1C7EDD0400DEFB45 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E46FC6D81C7EDD0400DEFB45 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E46FC6D91C7EDD0400DEFB45 /* UIView+Extension.h */,
+				E46FC6DA1C7EDD0400DEFB45 /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E46FC6DB1C7EDD0400DEFB45 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E46FC6DC1C7EDD0400DEFB45 /* HZShopViewController.h */,
+				E46FC6DD1C7EDD0400DEFB45 /* HZShopViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E46FC6DE1C7EDD0400DEFB45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E46FC6F41C7EDD4100DEFB45 /* HZShop.h */,
+				E46FC6F51C7EDD4100DEFB45 /* HZShop.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E46FC6DF1C7EDD0400DEFB45 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E46FC6E01C7EDD0400DEFB45 /* AppDelegate.h */,
+				E46FC6E11C7EDD0400DEFB45 /* AppDelegate.m */,
+				E46FC6E21C7EDD0400DEFB45 /* main.m */,
+				E46FC6E31C7EDD0400DEFB45 /* Main.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		E46FC6E41C7EDD0400DEFB45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E46FC6E51C7EDD0400DEFB45 /* HZShopCell.h */,
+				E46FC6E61C7EDD0400DEFB45 /* HZShopCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E46FC6ED1C7EDD1700DEFB45 /* HZWaterfallFlow */ = {
+			isa = PBXGroup;
+			children = (
+				E46FC6EE1C7EDD1700DEFB45 /* HZWaterfallFlowView.h */,
+				E46FC6EF1C7EDD1700DEFB45 /* HZWaterfallFlowView.m */,
+				E46FC6F01C7EDD1700DEFB45 /* HZWaterfallFlowViewCell.h */,
+				E46FC6F11C7EDD1700DEFB45 /* HZWaterfallFlowViewCell.m */,
+			);
+			path = HZWaterfallFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,9 +299,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E414002D1C7D829800B44FD2 /* Build configuration list for PBXNativeTarget "WaterfallFlowDemo" */;
 			buildPhases = (
+				0E9E95EE130F9EABCC0B7899 /* Check Pods Manifest.lock */,
 				E414FFFC1C7D829800B44FD2 /* Sources */,
 				E414FFFD1C7D829800B44FD2 /* Frameworks */,
 				E414FFFE1C7D829800B44FD2 /* Resources */,
+				7C5DC6EF6F408EF92301287D /* Embed Pods Frameworks */,
+				243248A22D9FCD21285F165B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +321,7 @@
 		E414FFF81C7D829800B44FD2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HZ;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = e29hz;
 				TargetAttributes = {
@@ -260,13 +380,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E46FC6FC1C7EDE3500DEFB45 /* 3.plist in Resources */,
+				E46FC6EB1C7EDD0400DEFB45 /* Main.storyboard in Resources */,
+				E46FC6FB1C7EDE3500DEFB45 /* 2.plist in Resources */,
 				E41400131C7D829800B44FD2 /* LaunchScreen.storyboard in Resources */,
+				E46FC6FA1C7EDE3500DEFB45 /* 1.plist in Resources */,
 				E41400101C7D829800B44FD2 /* Assets.xcassets in Resources */,
-				E414000E1C7D829800B44FD2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E9E95EE130F9EABCC0B7899 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		243248A22D9FCD21285F165B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterfallFlowDemo/Pods-WaterfallFlowDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C5DC6EF6F408EF92301287D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterfallFlowDemo/Pods-WaterfallFlowDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E41400151C7D829800B44FD2 /* Sources */ = {
@@ -289,9 +460,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E414000B1C7D829800B44FD2 /* ViewController.m in Sources */,
-				E41400081C7D829800B44FD2 /* AppDelegate.m in Sources */,
-				E41400051C7D829800B44FD2 /* main.m in Sources */,
+				E46FC6E81C7EDD0400DEFB45 /* HZShopViewController.m in Sources */,
+				E46FC6EC1C7EDD0400DEFB45 /* HZShopCell.m in Sources */,
+				E46FC6E71C7EDD0400DEFB45 /* UIView+Extension.m in Sources */,
+				E46FC6F31C7EDD1700DEFB45 /* HZWaterfallFlowViewCell.m in Sources */,
+				E46FC6F21C7EDD1700DEFB45 /* HZWaterfallFlowView.m in Sources */,
+				E46FC6EA1C7EDD0400DEFB45 /* main.m in Sources */,
+				E46FC6E91C7EDD0400DEFB45 /* AppDelegate.m in Sources */,
+				E46FC6F61C7EDD4100DEFB45 /* HZShop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +487,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E414000C1C7D829800B44FD2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E414000D1C7D829800B44FD2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E41400111C7D829800B44FD2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,8 +580,11 @@
 		};
 		E414002E1C7D829800B44FD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD7389C50A51255BFD3E60A1 /* Pods-WaterfallFlowDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = /Users/ehongzhen/Documents/WaterfallFlowDemo/WaterfallFlowDemo/HZPrefixHeader.pch;
 				INFOPLIST_FILE = WaterfallFlowDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.e29hz.WaterfallFlowDemo;
@@ -423,8 +594,11 @@
 		};
 		E414002F1C7D829800B44FD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04A2724EE7F059B6D47B20B7 /* Pods-WaterfallFlowDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = /Users/ehongzhen/Documents/WaterfallFlowDemo/WaterfallFlowDemo/HZPrefixHeader.pch;
 				INFOPLIST_FILE = WaterfallFlowDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.e29hz.WaterfallFlowDemo;
@@ -490,6 +664,7 @@
 				E414002F1C7D829800B44FD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E41400301C7D829800B44FD2 /* Build configuration list for PBXNativeTarget "WaterfallFlowDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +673,7 @@
 				E41400321C7D829800B44FD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E41400331C7D829800B44FD2 /* Build configuration list for PBXNativeTarget "WaterfallFlowDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +682,7 @@
 				E41400351C7D829800B44FD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E414FFFB1C7D829800B44FD2 /* Build configuration list for PBXProject "WaterfallFlowDemo" */ = {
 			isa = XCConfigurationList;

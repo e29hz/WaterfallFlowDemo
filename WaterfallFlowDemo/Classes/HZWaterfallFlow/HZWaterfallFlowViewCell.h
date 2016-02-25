@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HZWaterfallFlowViewCell.h
 //  WaterfallFlowDemo
 //
 //  Created by 鄂鸿桢 on 16/2/24.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface HZWaterfallFlowViewCell : UIView
+
+@property (nonatomic, copy) NSString *identifier;
 
 
 @end
-

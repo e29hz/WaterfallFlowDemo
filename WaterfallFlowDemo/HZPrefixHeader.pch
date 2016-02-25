@@ -1,0 +1,30 @@
+//
+//  HZPrefixHeader.pch
+//  WaterfallFlowDemo
+//
+//  Created by 鄂鸿桢 on 16/2/24.
+//  Copyright © 2016年 e29hz. All rights reserved.
+//
+
+#ifndef HZPrefixHeader_pch
+#define HZPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* HZPrefixHeader_pch */
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "UIView+Extension.h"
+#import <MJExtension.h>
+#import <MJRefresh.h>
+
+// 颜色
+#define HZColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define HZColorRGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+
+// 随机色
+#define HZRandomColor HZColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+#endif
