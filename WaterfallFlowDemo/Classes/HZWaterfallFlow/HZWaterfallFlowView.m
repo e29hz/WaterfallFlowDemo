@@ -14,14 +14,17 @@
 #define HZWaterfallFlowViewDefaultMargin 10
 
 @interface HZWaterfallFlowView ()
+
 /**
  *  所有cell的frame数据
  */
 @property (nonatomic, strong) NSMutableArray *cellFrames;
+
 /**
  *  正在展示的cell
  */
 @property (nonatomic, strong) NSMutableDictionary *displayingCells;
+
 /**
  *  缓存池（用Set，存放离开屏幕的cell）
  */
@@ -30,6 +33,8 @@
 @end
 
 @implementation HZWaterfallFlowView
+
+@dynamic delegate;
 
 #pragma mark - 初始化
 
@@ -128,10 +133,10 @@
             }
         }
         
-        // 询问代理i 位置的高度
+        // 询问代理 i 位置的高度
         CGFloat cellH = [self heightAtIndex:i];
         
-        CGFloat cellX = leftMargin +cellColumn *(cellW + columnMargin);
+        CGFloat cellX = leftMargin + cellColumn * (cellW + columnMargin);
         CGFloat cellY = 0;
         if (maxYOfCellColumn == 0.0) {// 首行
             cellY = topMargin;
@@ -148,7 +153,7 @@
     }
     //设置contentSize
     CGFloat contentH = maxYOfColumns[0];
-    for (int j = 0; j <numberOfColumns; j++) {
+    for (int j = 0; j < numberOfColumns; j++) {
         if (maxYOfColumns[j] > contentH) {
             contentH = maxYOfColumns[j];
         }

@@ -31,14 +31,16 @@ typedef enum {
  *  一共有多少个数据
  */
 - (NSUInteger)numberOfCellsInWaterfallFlowView:(HZWaterfallFlowView *)waterfallFlowView;
+
 /**
- *  返回index位置对应的cell
+ *  返回index位置, 对应的cell
  */
 - (HZWaterfallFlowViewCell *)waterfallFlowView:(HZWaterfallFlowView *)waterfallFlowView cellAtIndex:(NSUInteger)index;
 
 @optional
+
 /**
- *  一共有多少列
+ *  一共有多少列(默认为3列)
  */
 - (NSUInteger)numberOfColumnsInWaterfallFlowView:(HZWaterfallFlowView *)waterfallFlowView;
 @end

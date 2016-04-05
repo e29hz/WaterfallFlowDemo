@@ -134,4 +134,9 @@
     return waterfallFlowView.cellWith *shop.h / shop.w;
 }
 
+- (void)waterfallFlowView:(HZWaterfallFlowView *)waterfallFlowView didSelectedAtIndex:(NSUInteger)index
+{
+    NSLog(@"%lu", (unsigned long)index);
+}
+
 @end
