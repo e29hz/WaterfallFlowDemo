@@ -38,32 +38,28 @@
 
 #pragma mark - 初始化
 
-- (NSMutableArray *)cellFrames
-{
+- (NSMutableArray *)cellFrames {
     if (_cellFrames == nil) {
         self.cellFrames = [NSMutableArray array];
     }
     return _cellFrames;
 }
 
-- (NSMutableDictionary *)displayingCells
-{
+- (NSMutableDictionary *)displayingCells {
     if (_displayingCells == nil) {
         self.displayingCells = [NSMutableDictionary dictionary];
     }
     return _displayingCells;
 }
 
-- (NSMutableSet *)reusableCells
-{
+- (NSMutableSet *)reusableCells {
     if (_reusableCells == nil) {
         self.reusableCells = [NSMutableSet set];
     }
     return _reusableCells;
 }
 
-- (void)willMoveToSuperview:(UIView *)newSuperview
-{
+- (void)willMoveToSuperview:(UIView *)newSuperview {
     [self reloadData];
 }
 
@@ -71,8 +67,7 @@
 /**
  *  cell的宽度
  */
-- (CGFloat)cellWith
-{
+- (CGFloat)cellWith {
     // 总列数
     NSInteger numberOfColumns = [self numberOfColumns];
     //间距
@@ -86,8 +81,7 @@
 /**
  *  刷新数据
  */
-- (void)reloadData
-{
+- (void)reloadData {
     
     //清空之前的所有数据
     [self.displayingCells.allValues makeObjectsPerformSelector:@selector(removeFromSuperview)];
@@ -164,8 +158,7 @@
 /**
  *  当UIScrollview滚动时会调用该方法
  */
-- (void)layoutSubviews
-{
+- (void)layoutSubviews {
     [super layoutSubviews];
     
     // 向数据源要对应位置的cell
@@ -200,8 +193,7 @@
     }
 }
 
-- (id)dequeueReusableCellWithIdentifier:(NSString *)identifier
-{
+- (id)dequeueReusableCellWithIdentifier:(NSString *)identifier {
     __block HZWaterfallFlowViewCell *reusableCell = nil;
     
     [self.reusableCells enumerateObjectsUsingBlock:^(HZWaterfallFlowViewCell *cell, BOOL * _Nonnull stop) {
@@ -222,16 +214,14 @@
 /**
  *  判断frame是否显示在屏幕上
  */
-- (BOOL)isInScreen:(CGRect)frame
-{
+- (BOOL)isInScreen:(CGRect)frame {
     return (CGRectGetMaxY(frame) > self.contentOffset.y) &&
     (CGRectGetMinY(frame) < self.contentOffset.y + self.bounds.size.height);
 }
 /**
  *  间距
  */
-- (CGFloat)marginForType:(HZWaterfallFlowViewMarginType)marginType
-{
+- (CGFloat)marginForType:(HZWaterfallFlowViewMarginType)marginType {
     if ([self.delegate respondsToSelector:@selector(waterfallFlowView:marginForType:)]) {
         return [self.delegate waterfallFlowView:self marginForType:marginType];
     } else {
@@ -241,8 +231,7 @@
 /**
  *  总列数
  */
-- (NSUInteger)numberOfColumns
-{
+- (NSUInteger)numberOfColumns {
     if ([self.dataSource respondsToSelector:@selector(numberOfColumnsInWaterfallFlowView:)]) {
         return [self.dataSource numberOfColumnsInWaterfallFlowView:self];
     } else {
@@ -252,8 +241,7 @@
 /**
  *  index位置对应的高度
  */
-- (CGFloat)heightAtIndex:(NSUInteger)index
-{
+- (CGFloat)heightAtIndex:(NSUInteger)index {
     if ([self.delegate respondsToSelector:@selector(waterfallFlowView:heightAtIndex:)]) {
         return [self.delegate waterfallFlowView:self heightAtIndex:index];
     } else {
@@ -262,8 +250,7 @@
 }
 
 #pragma mark - 事件处理
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-{
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     if (![self.delegate respondsToSelector:@selector(waterfallFlowView:didSelectedAtIndex:)]) {
         return;
     }

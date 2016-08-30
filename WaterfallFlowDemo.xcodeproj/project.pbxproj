@@ -584,7 +584,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PREFIX_HEADER = /Users/ehongzhen/Documents/WaterfallFlowDemo/WaterfallFlowDemo/HZPrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WaterfallFlowDemo/HZPrefixHeader.pch";
 				INFOPLIST_FILE = WaterfallFlowDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.e29hz.WaterfallFlowDemo;
@@ -598,7 +598,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PREFIX_HEADER = /Users/ehongzhen/Documents/WaterfallFlowDemo/WaterfallFlowDemo/HZPrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WaterfallFlowDemo/HZPrefixHeader.pch";
 				INFOPLIST_FILE = WaterfallFlowDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.e29hz.WaterfallFlowDemo;

@@ -28,7 +28,7 @@ typedef enum {
 
 @required
 /**
- *  一共有多少个数据
+ *  共有多少数据
  */
 - (NSUInteger)numberOfCellsInWaterfallFlowView:(HZWaterfallFlowView *)waterfallFlowView;
 
